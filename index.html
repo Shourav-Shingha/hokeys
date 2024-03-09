@@ -11,19 +11,20 @@
     <!-- manrope fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <!-- website img -->
     <link rel="icon" href="./Images/11.png">
     <style>
-        .font-manrope{
+        .font-manrope {
             font-family: "Manrope", sans-serif;
         }
     </style>
 </head>
 
-<body class="font-manrope ">
-    <header>
+<body class="font-manrope bg-white">
+    <header class="p-4 md:p-10">
         <!-- navbar -->
         <div class="navbar bg-white">
             <div class="navbar-start">
@@ -31,10 +32,12 @@
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li class="text-red-700"><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
@@ -54,14 +57,59 @@
                 </ul>
             </div>
             <div class="navbar-end gap-5">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="w-6 h-6 text-slate-900 invisible md:visible lg:visible">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 text-slate-900 invisible md:visible lg:visible">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
 
                 <a class="btn btn-secondary text-white bg-[#FF4240]">Get Ticket</a>
             </div>
+        </div>
+        <!-- navbar end -->
+        <!-- hero section -->
+        <div class="carousel w-full max-h-[70vh] mb-8">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="./Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform sm:-translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <div class="w-4/12 p-5 bg-black text-white invisible rounded-lg md:absolute md:right-4 md:top-32 md:visible">
+                        <h4 class="font-semibold mb-2">Meet all the heroes from the field</h4>
+                        <p class="font-thin text-xs text-slate-200">Meet one of the true heroes of the ice, a hockey
+                            player whose passion for the game knows no bounds.</p>
+                    </div>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class=" carousel-item relative w-full ">
+                <img src="./Images/15.jfif" class="w-full" />
+                <div class="absolute flex justify-between transform sm:-translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <div class="w-4/12 p-5 bg-black text-white invisible rounded-lg md:absolute md:right-4 md:top-32 md:visible">
+                        <h4 class="font-semibold mb-2">Meet all the heroes from the field</h4>
+                        <p class="font-thin text-xs text-slate-200">Meet one of the true heroes of the ice, a hockey
+                            player whose passion for the game knows no bounds.</p>
+                    </div>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="./Images/17.avif" class="w-full" />
+                <div class="absolute flex justify-between transform sm:-translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <div class="w-4/12 p-5 bg-black text-white invisible rounded-lg md:absolute md:right-4 md:top-32 md:visible">
+                        <h4 class="font-semibold mb-2">Meet all the heroes from the field</h4>
+                        <p class="font-thin text-xs text-slate-200">Meet one of the true heroes of the ice, a hockey
+                            player whose passion for the game knows no bounds.</p>
+                    </div>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-4/12 p-5 bg-black text-white visible rounded-lg md:absolute md:right-4 md:top-32 md:invisible">
+            <h4 class="font-semibold mb-2">Meet all the heroes from the field</h4>
+            <p class="font-thin text-xs text-slate-200">Meet one of the true heroes of the ice, a hockey
+                player whose passion for the game knows no bounds.</p>
         </div>
     </header>
     <main>
