@@ -70,7 +70,7 @@
         </div>
         <!-- navbar end -->
         <!-- hero section -->
-        <div class="carousel w-full max-h-[70vh] mb-8">
+        <div class="carousel w-full lg:max-h-[70vh] mb-8">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="./Images/1.png" class="w-full" />
                 <div class="absolute flex justify-between transform sm:-translate-y-1/2 left-5 right-5 top-1/2">
@@ -114,7 +114,7 @@
         <div
             class="w-full md:w-4/12 p-5 bg-black text-white visible rounded-lg md:absolute md:right-4 md:top-32 md:invisible">
             <h4 class="font-semibold mb-2">Meet all the heroes from the field</h4>
-            <p class="font-thin text-xs text-slate-200">Meet one of the true heroes of the ice, a hockey
+            <p class="font-thin text-xs text-gray-300">Meet one of the true heroes of the ice, a hockey
                 player whose passion for the game knows no bounds.</p>
         </div>
         <!-- hero section end -->
@@ -567,23 +567,25 @@
             </div>
             <!-- Get In Touch contacts & forms -->
             <div class=" grid grid-cols-1 sm:grid-cols-1  lg:grid-cols-3 gap-8 sm:gap-20 md:gap-32 sm:mx-auto">
+                <!-- get in touch contacts -->
                     <div class="grid grid-cols-1 gap-5 border-2 border-dashed p-6  ml-10 sm:ml-24 md:ml-24 lg:ml-0 ">
                         <div class="w-64 lg:w-64 h-52 bg-[#BCED6D1A] p-5 rounded-lg leading-10 items-center mx-auto ">
                             <img src="./Images/Group 1171275317.png" alt="">
                             <p>Phone Numbers :</p>
-                            <h3>(+62) 123-321-543</h3>
+                            <h3 class="text-base text-black font-semibold">(+62) 123-321-543</h3>
                         </div>
                         <div class="w-64 h-52 bg-[#e9e0e61a] p-5 rounded-lg leading-10 items-center mx-auto">
                             <img src="./Images/Group 1171275318.png" alt="">
                             <p>Email :</p>
-                            <h3>hockeys@support.com</h3>
+                            <h3 class="text-base text-black font-semibold">hockeys@support.com</h3>
                         </div>
                         <div class="w-64 h-52 bg-[#629CF31A] p-5 rounded-lg leading-10 items-center mx-auto">
                             <img src="./Images/Group 1171275321.png" alt="">
                             <p>Location :</p>
-                            <h3>152/1 Mohakhali Wireless Gate</h3>
+                            <h3 class="text-base text-black font-semibold">152/1 Mohakhali Wireless Gate</h3>
                         </div>
                     </div>
+                    <!-- get in touch form -->
                 <div class="col-span-2 w-full h-fit grid grid-cols-1 sm:gap-4 md:grid-cols-2 lg:grid-cols-2 lg:gap-8 lg:leading-10">
                     <div>
                         <h3 class="text-base text-black font-semibold">Your Name</h3>
@@ -605,10 +607,20 @@
                         <h3 class="text-base text-black font-semibold">Message</h3>
                         <input class="w-full sm:max-h-[40vh] min-h-[60vh] p-5 bg-slate-100 rounded-xl mt-2 pb-80" type="text" placeholder="Write your message" name="" id="">
                     </div>
+                    <button class="btn btn-secondary bg-[#FF4240] text-white w-full h-10 md:col-span-2 lg:col-span-2 rounded-xl mt-3 md:mt-0 lg:mt-0 shadow-lg border-none " type="submit" >Send Message</button>
                 </div>
             </div>
+            <!-- social media -->
+            <div class="bg-gray-200 h-40 flex flex-col items-center justify-center gap-3 md:gap-5 mt-10 rounded-xl shadow-xl">
+                <h3 class="text-base text-black font-semibold">Social Media</h3>
+                <p>
+                    <i class="fa-brands fa-twitter text-2xl text-black w-10"></i>
+                    <i class="fa-brands fa-facebook-f text-2xl text-black w-10"></i>
+                    <i class="fa-brands fa-instagram text-2xl text-black w-10"></i>
+                    <i class="fa-brands fa-github text-2xl text-black w-10"></i>
+                </p>
+            </div>
         </div>
-        <!-- incomplete --><!-- incomplete --><!-- incomplete -->
 
     </main>
     <footer class="footer p-10 bg-black  grid grid-cols-1 lg:flex lg:justify-between gap-5 ">
@@ -630,7 +642,7 @@
                 <a class="link link-hover">Legal Notice</a><br>
             </nav>
             <nav>
-                <h6 class="text-base text-white font-bold">Support</h6>
+                <h6 class="text-base text-white font-bold">Support</h6><br>
                 <a class="link link-hover">Help Center</a><br>
                 <a class="link link-hover">FAQ</a><br>
                 <a class="link link-hover">Ticket Support</a><br>
@@ -638,7 +650,7 @@
             </nav>
         </div>
         <nav class=" w-fit text-center mx-auto">
-            <h6 class="text-base text-white font-bold">Services</h6>
+            <h6 class="text-base text-white font-bold">Services</h6><br>
             <a class="link link-hover">Academy</a>
             <a class="link link-hover">Group Lesson</a>
             <a class="link link-hover">Private Lesson</a>
