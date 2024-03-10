@@ -559,68 +559,52 @@
         <!-- Get In Touch -->
         <div class="p-4 md:p-10 mb-8">
             <!-- Get In Touch text -->
-            <div class="border-y-2 mb-8 border-dashed">
+            <div class="border-y-2 mb-8 border-dashed  md:w-full lg:w-full">
                 <div class="md:w-1/2 mx-auto flex flex-col items-center my-8">
                     <h3 class="text-black font-bold text-4xl my-5 ">Get In Touch</h3>
                     <p class="text-black font-extralight text-sm">If you have any questions, feedback, or inquiries, please don't hesitate to get in touch with us. We're here to help and would love to hear from you!</p>
                 </div>
             </div>
             <!-- Get In Touch contacts & forms -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-32">
-                <div class="flex flex-col gap-5 border-2 p-5 rounded-xl max-h-[650px] md:min-w-max">
-                    <div class="w-64 h-52 bg-[#BCED6D1A] p-5 rounded-lg leading-10 items-center">
-                        <img src="./Images/Group 1171275317.png" alt="">
-                        <p>Phone Numbers :</p>
-                        <h3>(+62) 123-321-543</h3>
+            <div class=" grid grid-cols-1 sm:grid-cols-1  lg:grid-cols-3 gap-8 sm:gap-20 md:gap-32 sm:mx-auto">
+                    <div class="grid grid-cols-1 gap-5 border-2 border-dashed p-6  ml-10 sm:ml-24 md:ml-24 lg:ml-0 ">
+                        <div class="w-64 lg:w-64 h-52 bg-[#BCED6D1A] p-5 rounded-lg leading-10 items-center mx-auto ">
+                            <img src="./Images/Group 1171275317.png" alt="">
+                            <p>Phone Numbers :</p>
+                            <h3>(+62) 123-321-543</h3>
+                        </div>
+                        <div class="w-64 h-52 bg-[#e9e0e61a] p-5 rounded-lg leading-10 items-center mx-auto">
+                            <img src="./Images/Group 1171275318.png" alt="">
+                            <p>Email :</p>
+                            <h3>hockeys@support.com</h3>
+                        </div>
+                        <div class="w-64 h-52 bg-[#629CF31A] p-5 rounded-lg leading-10 items-center mx-auto">
+                            <img src="./Images/Group 1171275321.png" alt="">
+                            <p>Location :</p>
+                            <h3>152/1 Mohakhali Wireless Gate</h3>
+                        </div>
                     </div>
-                    <div class="w-64 h-52 bg-[#e9e0e61a] p-5 rounded-lg leading-10 items-center">
-                        <img src="./Images/Group 1171275318.png" alt="">
-                        <p>Email :</p>
-                        <h3>hockeys@support.com</h3>
+                <div class="col-span-2 w-full h-fit grid grid-cols-1 sm:gap-4 md:grid-cols-2 lg:grid-cols-2 lg:gap-8 lg:leading-10">
+                    <div>
+                        <h3 class="text-base text-black font-semibold">Your Name</h3>
+                        <input class="w-full h-10 p-5 bg-slate-100 rounded-xl mt-2" type="text" placeholder="Enter your full name" name="" id="">
                     </div>
-                    <div class="w-64 h-52 bg-[#629CF31A] p-5 rounded-lg leading-10 items-center">
-                        <img src="./Images/Group 1171275321.png" alt="">
-                        <p>Location :</p>
-                        <h3>152/1 Mohakhali Wireless Gate</h3>
+                    <div>
+                        <h3 class="text-base text-black font-semibold">Your Email</h3>
+                        <input class="w-full h-10 p-5 bg-slate-100 rounded-xl mt-2" type="text" placeholder="Enter your email" name="" id="">
                     </div>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2   md:col-span-2 ">
-                    <label class="form-control w-full  h-36">
-                        <div class="label">
-                            <span class="label-text text-black font-bold text-xl my-1">Your Name</span>
-                        </div>
-                        <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs bg-gray-200" />
-                        <div class="label">
-                        </div>
-                    </label>
-                    <label class="form-control w-full ">
-                        <div class="label">
-                            <span class="label-text text-black font-bold text-xl my-1">Your Email</span>
-                        </div>
-                        <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs bg-gray-200" />
-                        <div class="label">
-                        </div>
-                    </label>
-                    <label class="form-control w-full ">
-                        <div class="label">
-                            <span class="label-text text-black font-bold text-xl my-1">Subject</span>
-                        </div>
-                        <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs bg-gray-200" />
-                        <div class="label">
-                        </div>
-                    </label>
-                    <label class="form-control w-full ">
-                        <div class="label">
-                            <span class="label-text text-black font-bold text-xl my-1">Phone Number</span>
-                        </div>
-                        <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs bg-gray-200" />
-                        <div class="label">
-                        </div>
-                    </label>
-                    <label class="form-control sm:w-[38vw]  md:w-[53vw] md:h-[50vh]  md:col-span-2 ">
-                        <h3 class="text-black font-bold text-xl my-1">Message</h3>
-                        <input class="sm:w-full md:min-w-[40vh] min-h-full flex  p-5 pb-40 bg-gray-200" type="text" placeholder="Enter your Message" name="" id="">
-                    </label>
+                    <div>
+                        <h3 class="text-base text-black font-semibold">Subject</h3>
+                        <input class="w-full h-10 p-5 bg-slate-100 rounded-xl mt-2" type="text" placeholder="Enter your subject" name="" id="">
+                    </div>
+                    <div>
+                        <h3 class="text-base text-black font-semibold">Phone Number</h3>
+                        <input class="w-full h-10 p-5 bg-slate-100 rounded-xl mt-2" type="text" placeholder="Enter your phone number" name="" id="">
+                    </div>
+                    <div class="md:col-span-2 lg:col-span-2">
+                        <h3 class="text-base text-black font-semibold">Message</h3>
+                        <input class="w-full sm:max-h-[40vh] min-h-[60vh] p-5 bg-slate-100 rounded-xl mt-2 pb-80" type="text" placeholder="Write your message" name="" id="">
+                    </div>
                 </div>
             </div>
         </div>
